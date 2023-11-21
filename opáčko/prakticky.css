@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+#text {
+    font-family: "Oswald", sans-serif;
+}
+#pic {
+    max-width: 400px;
+    height: auto;
+}
+.cici {
+    width: 100px;
+    height: auto;
+    position: relative;
+    right: -828px;
+    top: 2px;
+}
+.kyticka {
+    display: none;
+}
+.pic2 {
+display: none;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PŘEKLIK</title>
+        <link rel="stylesheet" href="prakticky.css" />
+    </head>
+    <body>
+        <h1 id="nadpis">Škola</h1>
+
+        <div>
+            <img
+                class="cici"
+                src="https://img.myloview.cz/nalepky/kreslena-kocka-usek-700-145434615.jpg"
+                alt=""
+            />
+        </div>
+        <div id="pic3zmena">
+            <img
+                class="kyticka"
+                src="https://www.msvrapicka.cz/obrazek--45074"
+                alt=""
+            />
+        </div>
+
+        <div id="text">Napíšu si co chci sem</div>
+        <br />
+
+        <div>
+            <img
+                id="pic"
+                src="https://yt3.ggpht.com/a/AGF-l79jv3www-SR-dx69v5t2-PJo9KWhxI_OKrlOw=s900-c-k-c0xffffffff-no-rj-mo"
+                alt=""
+            />
+        </div>
+        <div id="pic2zmena">
+            <img
+                class="pic2"
+                src="https://c.ccdn.cz/11160/uploads/fs_images/contentnews/1/maledivy-01_579_l.jpg"
+                alt=""
+            />
+        </div>
+
+        <script>
+            const tlacitko = document.querySelector(".cici")
+            tlacitko.addEventListener("click", zmenObrazek)
+
+            function zmenObrazek() {
+                nadpis.innerText = "Prázdniny"
+                text.innerText = "Potřebuju konstantní volno"
+                text.style.color = "blue"
+
+                document.getElementById("cici") = "pic3zmena"
+                    
+
+                document.getElementById("pic").scr =                                                                
+                    "https://c.ccdn.cz/11160/uploads/fs_images/contentnews/1/maledivy-01_579_l.jpg"
+            }
+        </script>
+    </body>
+</html>

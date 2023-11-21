@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark mode web</title>
+    <link rel="stylesheet" href="ukol2-darkmodeweb.css" />
+</head>
+<body>
+    <div class="mode">
+        <div class="wrapper">
+<h1 id="nadpis">Modes</h1>
+<p id="text">stiskni měsíček a bude tma.
+    <br>stane se kouzlo.
+</p>
+<img id="moon" src="https://cdn.wantuju.com/pngsucai/imgRegular/20210802/30bbe4fb-15bd-4aaf-8653-dce070ce26fb%20_70875_wantuju.png" alt="" class="img">
+
+</div>
+<button id="tlacitko">Klikytyklik</button>
+    </div>
+
+</body>
+<script>
+    const moon = document.querySelector("#moon")
+    moon.addEventListener("click", zmena)
+
+    function zmena () {
+        nadpis.style.color = "#A98AB0"
+        document.body.style.backgroundColor = "#383940"
+        text.style.color = "ADA9AD"
+    }
+</script>
+</html>

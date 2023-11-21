@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Opáčko</title>
+        <link rel="stylesheet" href="opacko.css" />
+    </head>
+    <body>
+        <h1 id="nadpis">
+            Jak jsem se měla o prázdninách aneb deník nadšené studentky Klárky
+        </h1>
+        <div id="text">
+            Celý červenec jsem pracovala ve fast foodu, kde pořád pracuji. V
+            srpnu jsem byla v nádherné Francii, kterou jsem si moc užila. Uteklo
+            to bohužel strašně rychle...
+        </div>
+        <div>
+            <img
+                id="pic"
+                src="https://www.wisnar.cz/wp-content/uploads/2022/10/25a98627-1acd-4e0e-9a17-d2150abc651c_1_201_a-1600x982.jpeg"
+                alt=""
+            />
+        </div>
+        <div><button id="tlacitko">změň se</button></div>
+        <div><button id="tlacitko1">Konec prázdnin</button></div>
+
+        <script>
+            const tlacitko = document.querySelector("#tlacitko")
+            const tlacitko1 = document.querySelector("#tlacitko1")
+
+            tlacitko.addEventListener("click", zmenBarvuTextu)
+            tlacitko1.addEventListener("click", piczmena)
+
+            function zmenBarvuTextu() {
+                nadpis.style.color = "purple"
+            }
+            function piczmena() {
+                document.getElementById("pic").src =
+                    "https://media.istockphoto.com/id/498900387/cs/fotografie/%C4%8Dernob%C3%ADl%C3%A1-sed%C3%ADc%C3%AD-d%C4%9Btsk%C3%A1-%C5%A1kola-smutn%C3%A1.jpg?s=1024x1024&w=is&k=20&c=2dMuuXz6ciTpL8eofYuSwD-mCs4WJi8prLTURmlEtg4="
+            }
+        </script>
+    </body>
+</html>

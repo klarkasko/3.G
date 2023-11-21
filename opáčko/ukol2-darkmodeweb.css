@@ -1,0 +1,18 @@
+body {
+    font-family: Kanit, sans-serif;
+    text-align :center
+}
+.img {
+    height: 250px;
+    aspect-ratio: auto;
+    margin: 10px;
+    position: relative;
+    left: -777px;
+    top: -100px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

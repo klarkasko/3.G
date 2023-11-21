@@ -1,0 +1,30 @@
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prezenčka - úkol 3</title>
+        <style>
+            html {
+                font-family: 'Montserrat', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Kočky:</div>
+        <ul id="vypis"></ul>
+    </body>
+    <script>
+    let cislo = window.prompt("Kolik koček si přejete?");
+    let seznam = document.getElementById("vypis");
+
+    for (let i = 0; i < cislo; i++) {
+        let seznamItem = document.createElement("li");
+        seznamItem.textContent = "kočička";
+        seznam.appendChild(seznamItem);
+        }
+       
+    </script>
+</head>
+
+</html>
+ 

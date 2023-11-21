@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+#text {
+    font-family: "Oswald", sans-serif;
+}
+#pic {
+    max-width: 400px;
+    height: auto;
+  
+}
